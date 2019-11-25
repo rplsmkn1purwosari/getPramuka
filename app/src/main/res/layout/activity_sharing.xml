@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".sharing"
+        android:orientation="vertical">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="   SHARING"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:textColor="#ffffff"
+            android:background="#d17702"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+        <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Ketik Pencarian"/>
+        <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:text="Cari"/>
+
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/user"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Alfi Filsafalasafi"
+                            android:textSize="12sp"
+                            android:textColor="#000000"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="35 Menit"
+                            android:textSize="10sp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:text="Setiap pramuka adalah kantor berita"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="5sp"
+                    android:text="Nunu dam 64 orang lainnya"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal">
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Suka"
+                        android:textSize="6sp"/>
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Komentar"
+                        android:textSize="6sp"/>
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Bagikan"
+                        android:textSize="6sp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/user"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Triwiyanti Wijaya"
+                            android:textSize="12sp"
+                            android:textColor="#000000"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 Jam"
+                            android:textSize="10sp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:text="Gimana sih cara yang baik untuk menjadi seorang sekretaris ambalan itu ?"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="5sp"
+                    android:text="Alfi Filsafalasafi dam 94 orang lainnya"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal">
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Suka"
+                        android:textSize="6sp"/>
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Komentar"
+                        android:textSize="6sp"/>
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Bagikan"
+                        android:textSize="6sp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/user"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Triwiyanti Wijaya"
+                            android:textSize="12sp"
+                            android:textColor="#000000"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kemarin pukul  20:29"
+                            android:textSize="10sp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:text="Cara membagi waktu yang efesien antara pramuka sama pmr gimana ya ?, Bingung aku :v"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="5sp"
+                    android:text="Alfi Filsafalasafi dam 94 orang lainnya"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal">
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Suka"
+                        android:textSize="6sp"/>
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Komentar"
+                        android:textSize="6sp"/>
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Bagikan"
+                        android:textSize="6sp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/user"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Alfi Filsafalasafi"
+                            android:textSize="12sp"
+                            android:textColor="#000000"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="09 April pukul 16:00"
+                            android:textSize="10sp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:text="Jangan pernah berfikir kamu tidak mampu, atau kalau engga kamu akan merasa kurang mampu"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="5sp"
+                    android:text="Alfi Filsafalasafi dam 94 orang lainnya"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal">
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Suka"
+                        android:textSize="6sp"/>
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Komentar"
+                        android:textSize="6sp"/>
+                <Button
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:background="#ffffff"
+                        android:text="Bagikan"
+                        android:textSize="6sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

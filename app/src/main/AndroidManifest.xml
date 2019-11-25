@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/get64"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".lihat_lirik_musik"></activity>
+        <activity android:name=".lihat_foto_jual_hasduk" />
+        <activity android:name=".liaht_foto_materi_siamphore" />
+        <activity android:name=".lihat_jualbeli_hasduk" />
+        <activity android:name=".lihat_materi_morse" />
+        <activity android:name=".lihat_jual_beli_simaphore" />
+        <activity android:name=".Lihat_materi" />
+        <activity android:name=".login" />
+        <activity android:name=".lihat_berita" />
+        <activity android:name=".foto" />
+        <activity android:name=".lihat_video" />
+        <activity android:name=".sharing" />
+        <activity android:name=".jual_beli" />
+        <activity android:name=".materi" />
+        <activity android:name=".menu_utama" />
+        <activity android:name=".daftar_akun" />
+        <activity android:name=".lihat_foto" />
+        <activity android:name=".berita" />
+        <activity android:name=".musik" />
+        <activity android:name=".Video" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".aktivitas2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

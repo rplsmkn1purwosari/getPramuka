@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/txt_marsmallow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marsmallow"
+            android:layout_alignParentLeft="true"
+
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasuruan"
+            android:layout_below="@id/txt_marsmallow"
+
+    />
+
+    <TextView
+            android:id="@+id/txt_kitkat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitkat"
+            android:layout_alignParentRight="true"
+
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Probolinggo"
+            android:layout_below="@id/txt_kitkat"
+            android:layout_alignParentRight="true"
+
+    />
+    <TextView
+            android:id="@+id/txt_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pie"
+            android:layout_alignParentBottom="true"
+
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malang"
+            android:layout_above="@id/txt_pie"
+
+
+
+    />
+    <TextView
+            android:id="@+id/txt_lolipop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lolipop"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+
+    />
+
+    <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lumajang"
+            android:layout_above="@id/txt_pie"
+    />
+
+    <ImageView
+            android:id="@+id/jembatan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/jembatan"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+    />
+    <ImageView
+            android:id="@+id/ban"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ban"
+            android:layout_above="@id/jembatan"
+            android:layout_toRightOf="@id/jembatan"
+    />
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tambah_anggota"
+            android:layout_centerVertical="true"
+    />
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tambah_anggota"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+    />
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tambah_anggota"
+            android:layout_centerHorizontal="true"
+
+    />
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tambah_anggota"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+    />
+</RelativeLayout>

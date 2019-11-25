@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".foto">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="   FOTO"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:textColor="#ffffff"
+            android:background="#d17702"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+        <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Ketik Pencarian"/>
+        <Button
+                android:text="Cari"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="#f59700"/>
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+           <ImageView
+                   android:layout_width="110dp"
+                   android:layout_marginRight="0.5dp"
+                   android:layout_marginLeft="0.5dp"
+                   android:id="@+id/btn_fotoa"
+                   android:layout_height="80dp"
+                    android:src="@drawable/f_1"/>
+           <ImageView
+                   android:layout_width="110dp"
+                   android:layout_height="80dp"
+                   android:layout_marginRight="0.5dp"
+                   android:id="@+id/btn_foto_materi_morse"
+                   android:layout_marginLeft="0.5dp"
+                   android:src="@drawable/morse"/>
+           <ImageView
+                   android:layout_width="110dp"
+                   android:layout_height="80dp"
+                   android:layout_marginRight="0.5dp"
+               android:id="@+id/btn_foto_materi_simaphore"
+                   android:layout_marginLeft="0.5dp"
+                   android:src="@drawable/simaphore"/>
+
+
+       </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_height="80dp"
+                android:id="@+id/btn_foto_hasduk"
+                    android:src="@drawable/hasduk"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/f_5"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/morse_tab"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f_3"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:id="@+id/btn_materi_simaphore_uwo"
+                    android:src="@drawable/simaphore_uwo"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/f_13"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f_5"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/f_8"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/f_1"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f_10"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/f_4"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/f_3"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f_5"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/f_8"/>
+            <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:src="@drawable/f_7"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
+
+

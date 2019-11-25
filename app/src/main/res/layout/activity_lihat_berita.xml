@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".lihat_berita">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="250dp"
+                android:src="@drawable/f_1"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:text="Pramuka jawa timur Goes To thailand"
+                android:textColor="#000000"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Sebanyak 16 pramuka penegak dari berbagai daerah di jawa timur"
+                android:textColor="#000000"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:text="           akwejiekjw kdjskdhsjkdhgsjd gshdgs hjdgjsh dgshdfghdfsh dfsgd sgd sfdgsdfsgdghsfjsdkljskdjskdjs sdkjhsdjkhsd sjdhsjdhs sjdhs jkdhs dsk jd hsjdkhskj dsdjkshdsjkhdkjsd sdkjsdhsjdnskjdhsds djsdhsjd sdsudhsud
+sdhsjgdsjd sdjhsdkjsh dskdjhsjkdhsjkd vldkfgjfguofijgf gfklgjflkg jf gfklg jfkgjf gfklgfkgn fgkfjghjfg fgjfhgf gfkjghf gfmghfjg fg
+ajshjkahs kljahsja jkhjkha jhga hghahsgha jhghghjs hghffs ghfghsa ghfgha kjdfyuidfe jkhejf dfhjkhwremnf dfjhdfjdhf jhakjs sdhsjkdhjskdh jghghjsd jkhdjkshd
+bvxbdsb nsdvhsgvd hgsfdhsgvd jhsfgdhsvd kydfudhf yuudf jhfgdgfh kjdfghjkdfb kjhgfhdf jkdfgdjhf jkdfkjdb djfjdb djfhjdb jdgfdhgb kshdjkshd isdusi
+sgdhs hd jhsdgjhsgd sjhdgsjh sjkdhjkshdsj awokawokawokwaok awokwaokwoka waokaowkoaw awokoawko"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:text="           akwejiekjw kdjskdhsjkdhgsjd gshdgs hjdgjsh dgshdfghdfsh dfsgd sgd sfdgsdfsgdghsfjsdkljskdjskdjs sdkjhsdjkhsd sjdhsjdhs sjdhs jkdhs dsk jd hsjdkhskj dsdjkshdsjkhdkjsd sdkjsdhsjdnskjdhsds djsdhsjd sdsudhsud
+sdhsjgdsjd sdjhsdkjsh dskdjhsjkdhsjkd vldkfgjfguofijgf gfklgjflkg jf gfklg jfkgjf gfklgfkgn fgkfjghjfg fgjfhgf gfkjghf gfmghfjg fg
+ajshjkahs kljahsja jkhjkha jhga hghahsgha jhghghjs hghffs ghfghsa ghfgha kjdfyuidfe jkhejf dfhjkhwremnf dfjhdfjdhf jhakjs sdhsjkdhjskdh jghghjsd jkhdjkshd
+bvxbdsb nsdvhsgvd hgsfdhsgvd jhsfgdhsvd kydfudhf yuudf jhfgdgfh kjdfghjkdfb kjhgfhdf jkdfgdjhf jkdfkjdb djfjdb djfhjdb jdgfdhgb kshdjkshd isdusi
+sgdhs hd jhsdgjhsgd sjhdgsjh sjkdhjkshdsj awokawokawokwaok awokwaokwoka waokaowkoaw awokoawko"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:text="           akwejiekjw kdjskdhsjkdhgsjd gshdgs hjdgjsh dgshdfghdfsh dfsgd sgd sfdgsdfsgdghsfjsdkljskdjskdjs sdkjhsdjkhsd sjdhsjdhs sjdhs jkdhs dsk jd hsjdkhskj dsdjkshdsjkhdkjsd sdkjsdhsjdnskjdhsds djsdhsjd sdsudhsud
+sdhsjgdsjd sdjhsdkjsh dskdjhsjkdhsjkd vldkfgjfguofijgf gfklgjflkg jf gfklg jfkgjf gfklgfkgn fgkfjghjfg fgjfhgf gfkjghf gfmghfjg fg
+ajshjkahs kljahsja jkhjkha jhga hghahsgha jhghghjs hghffs ghfghsa ghfgha kjdfyuidfe jkhejf dfhjkhwremnf dfjhdfjdhf jhakjs sdhsjkdhjskdh jghghjsd jkhdjkshd
+bvxbdsb nsdvhsgvd hgsfdhsgvd jhsfgdhsvd kydfudhf yuudf jhfgdgfh kjdfghjkdfb kjhgfhdf jkdfgdjhf jkdfkjdb djfjdb djfhjdb jdgfdhgb kshdjkshd isdusi
+sgdhs hd jhsdgjhsgd sjhdgsjh sjkdhjkshdsj awokawokawokwaok awokwaokwoka waokaowkoaw awokoawko"
+        />
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/f_13"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:text="Pelepasan peserta oleh Kwarda Jawa Timur di Hotel Araya, Surabaya"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:text="           akwejiekjw kdjskdhsjkdhgsjd gshdgs hjdgjsh dgshdfghdfsh dfsgd sgd sfdgsdfsgdghsfjsdkljskdjskdjs sdkjhsdjkhsd sjdhsjdhs sjdhs jkdhs dsk jd hsjdkhskj dsdjkshdsjkhdkjsd sdkjsdhsjdnskjdhsds djsdhsjd sdsudhsud
+sdhsjgdsjd sdjhsdkjsh dskdjhsjkdhsjkd vldkfgjfguofijgf gfklgjflkg jf gfklg jfkgjf gfklgfkgn fgkfjghjfg fgjfhgf gfkjghf gfmghfjg fg
+ajshjkahs kljahsja jkhjkha jhga hghahsgha jhghghjs hghffs ghfghsa ghfgha kjdfyuidfe jkhejf dfhjkhwremnf dfjhdfjdhf jhakjs sdhsjkdhjskdh jghghjsd jkhdjkshd
+bvxbdsb nsdvhsgvd hgsfdhsgvd jhsfgdhsvd kydfudhf yuudf jhfgdgfh kjdfghjkdfb kjhgfhdf jkdfgdjhf jkdfkjdb djfjdb djfhjdb jdgfdhgb kshdjkshd isdusi
+sgdhs hd jhsdgjhsgd sjhdgsjh sjkdhjkshdsj awokawokawokwaok awokwaokwoka waokaowkoaw awokoawko"
+        />
+    </LinearLayout>
+
+
+</ScrollView>

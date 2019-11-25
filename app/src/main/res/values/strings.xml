@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GetPram</string>
+    <string name="title_activity_menu_utama">menu_utama</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="paused">Paused…</string>
+    <string name="playing">Playing…</string>
+
+</resources>

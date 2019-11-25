@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#d17702"
+              tools:context=".aktivitas2"
+
+>
+
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gs"
+                android:layout_marginTop="130dp"/>
+
+
+
+    <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Tahu Pramuka Tahu Indonesia"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/tahu"
+            android:textSize="20dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kunjungi Juga"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily=""
+            android:textSize="20dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="www.getpram.com"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#2839d4"
+            android:textSize="17dp"/>
+  <ProgressBar
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/pb"/>
+</LinearLayout>
